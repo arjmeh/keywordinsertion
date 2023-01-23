@@ -16,7 +16,7 @@ function submit() {
     var secondaryKeywordsArray = secondaryKeywords.value.split(',');
     var amountOfMainKeywordsValue = parseInt(amountOfMainKeywords.value);
     var amountOfSecondaryKeywordsValue = parseInt(amountOfSecondaryKeywords.value);
-    fetch('http://127.0.0.1:5000/post', {
+    fetch('https://keywordinsertion.herokuapp.com/post', {
         method: 'POST',
         mode: 'cors',
         headers: {
