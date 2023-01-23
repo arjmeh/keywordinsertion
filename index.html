@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>KeyWordInsertion™</h1>
+    <h2>Inserting keywords, Elevating your content</h2>
+
+    <div class="textbox">
+        <textarea name="" id="baseContent" cols="30" rows="10" placeholder="Insert Base Content"></textarea>
+        <!-- <input type="text" name="" id="baseContent" placeholder="Insert Base Content"> -->
+    </div>
+    <div class="keywords">
+        <h3>Keywords must be seperated by COMMAS. If not, then will not get desired outcome!</h3>
+        <input type="text" name="mainKeywords" id="mainKeywords" placeholder="Main Keywords">
+        <input type="text" class="input-group-textname" id="secondaryKeywords" placeholder="Secondary Keywords">
+        <input type="number" placeholder="# of content" id="numberOfContent">
+        <input type="number" placeholder="# of main keywords" id="mainKeywordAmount">
+        <input type="number" placeholder="# of secondary keywords" id="secondaryKeywordAmount">
+    </div>
+    <div class="button">
+        <button type="submit" class="btn btn-primary" id="submitButton" onclick="submit()">Submit</button>
+    </div>
+    <div class="response">
+        <p id="responseText"></p>
+    </div>
+    <hr>
+    <p>Part of the Arjun Office Suite Applications</p>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
